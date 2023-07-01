@@ -16,11 +16,10 @@ interface Cinema {
 const cinemas: { [cinemaId: string]: Cinema } = {};
 
 
-// Define the API endpoints
+// DefiningC the API endpoints
 
 // Creating a new cinema with N seats
 app.post('/cinemas', (req: Request, res: Response) => {
-    // Create a new cinema with N seats
     const numSeats: number = req.body.numSeats;
   
     if (numSeats <= 0) {
