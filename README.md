@@ -17,12 +17,10 @@ POST http://localhost:3000/cinemas
 Body: { "numSeats": 10 }
 
 2. To purchase a specific seat in a cinema:
-
 POST http://localhost:3000/cinemas/:cinemaId/purchase
 Body: { "seatNumber": "2" }
 
 3. To purchase the first two free consecutive seats in a cinema:
-
 POST http://localhost:3000/cinemas/:cinemaId/purchase/consecutive
 
 
