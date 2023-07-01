@@ -16,7 +16,7 @@ API'S
 POST http://localhost:3000/cinemas
 Body: { "numSeats": 10 }
 
-1. To purchase a specific seat in a cinema:
+2. To purchase a specific seat in a cinema:
 
 POST http://localhost:3000/cinemas/:cinemaId/purchase
 Body: { "seatNumber": "2" }
